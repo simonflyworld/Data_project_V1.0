@@ -50,8 +50,7 @@ def zscore(data):
 print("data : ", data)  
 print("Q2 quantile of data : ", np.quantile(data, .50)) 
 print("Q1 quantile of data : ", np.quantile(data, .25)) 
-print("Q3 quantile of data : ", np.quantile(data, .75)) 
-print("100th quantile of data : ", np.quantile(data, .1))  
+print("Q3 quantile of data : ", np.quantile(data, .75))  
 #算SD
 print("SD:",np.std(data))
 #算zscore
